@@ -68,12 +68,30 @@ section.light {
 section.image {
   background-color: rgb(12, 12, 12);
   color: white;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section#img01 {
+  background-image: url(../imagens/background001.jpg);
+  background-position: cover;
+  background-position: right center;
+}
+
+section#img02 {
+  background-image: url(../imagens/background002.jpg);
+  background-position: right center;
 }
 
 section.image > p {
-  background-color: rgba(0, 0, 0, 0.521);
+  background-color: rgba(0, 0, 0, 0.466);
   display: inline-block;
   padding: 5px;
+  text-shadow: 1px 1px 0px rgb(0, 0, 0);
+}
+
+section > p {
+  padding-bottom: 2em;
 }
 
 footer {
