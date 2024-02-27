@@ -37,6 +37,7 @@ header > h1 {
 
 header > p {
   padding-bottom: 50px;
+  font-size: 2vw;
 }
 
 header a,
@@ -54,49 +55,49 @@ footer a:hover {
 section {
   padding-top: 10vh;
   padding-bottom: 10vh;
-  line-height: 2em;
   padding-left: 30px;
   font-family: var(--Font2);
   font-size: 3.5vw;
-}
-
-section.light {
-  background-color: white;
-  color: black;
-}
-
-section.image {
-  background-color: rgb(12, 12, 12);
-  color: white;
-  background-size: cover;
-  background-attachment: fixed;
-  box-shadow: inset 3px 3px 12px black;
-}
-
-section#img01 {
-  background-image: url(../imagens/background001.jpg);
-  background-position: cover;
-  background-position: right center;
-}
-
-section#img02 {
-  background-image: url(../imagens/background002.jpg);
-}
-
-section.image > p {
-  background-color: rgba(0, 0, 0, 0.466);
-  display: inline-block;
-  padding: 5px;
-  text-shadow: 1px 1px 0px rgb(0, 0, 0);
+  line-height: 2em;
 }
 
 section > p {
   padding-bottom: 2em;
 }
 
+.light {
+  background-color: white;
+  color: black;
+}
+
+.image {
+  background-color: rgb(14, 14, 14);
+  color: white;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: inset 3px 3px 12px black;
+}
+
+#img01 {
+  background-image: url(../imagens/background001.jpg);
+  background-position: cover;
+  background-position: right center;
+}
+
+#img02 {
+  background-image: url(../imagens/background002.jpg);
+}
+
+.image > p {
+  background-color: rgba(0, 0, 0, 0.466);
+  display: inline-block;
+  padding: 5px;
+  text-shadow: 1px 1px 0px rgb(0, 0, 0);
+}
+
 footer {
   background-color: black;
   color: white;
-  padding: 10px;
   text-align: center;
+  padding: 10px;
 }
